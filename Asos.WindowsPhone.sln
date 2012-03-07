@@ -1,0 +1,47 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Asos.Mobile", "Asos.Mobile\Asos.Mobile.csproj", "{AD58FCF9-CDD7-4CA8-9599-0369AAEC4A9C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Asos.Mobile.Domain", "Asos.Mobile.Domain\Asos.Mobile.Domain.csproj", "{96F72882-4C00-445E-B13D-D894718AAF0E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Asos.Mobile.Tests", "Asos.Mobile.Tests\Asos.Mobile.Tests.csproj", "{335E160F-F30E-4B44-9581-6972947484E0}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "library", "library", "{57D6BFF8-AD25-4180-B387-83E6449C214A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "unittests", "unittests", "{1DF00263-6CC4-449A-BA3B-A22183ED3DFA}"
+	ProjectSection(SolutionItems) = preProject
+		library\UnitTesting\Microsoft.Silverlight.Testing.dll = library\UnitTesting\Microsoft.Silverlight.Testing.dll
+		library\UnitTesting\Microsoft.VisualStudio.QualityTools.UnitTesting.Silverlight.dll = library\UnitTesting\Microsoft.VisualStudio.QualityTools.UnitTesting.Silverlight.dll
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AD58FCF9-CDD7-4CA8-9599-0369AAEC4A9C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AD58FCF9-CDD7-4CA8-9599-0369AAEC4A9C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AD58FCF9-CDD7-4CA8-9599-0369AAEC4A9C}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{AD58FCF9-CDD7-4CA8-9599-0369AAEC4A9C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AD58FCF9-CDD7-4CA8-9599-0369AAEC4A9C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AD58FCF9-CDD7-4CA8-9599-0369AAEC4A9C}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{96F72882-4C00-445E-B13D-D894718AAF0E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{96F72882-4C00-445E-B13D-D894718AAF0E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{96F72882-4C00-445E-B13D-D894718AAF0E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{96F72882-4C00-445E-B13D-D894718AAF0E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{335E160F-F30E-4B44-9581-6972947484E0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{335E160F-F30E-4B44-9581-6972947484E0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{335E160F-F30E-4B44-9581-6972947484E0}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{335E160F-F30E-4B44-9581-6972947484E0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{335E160F-F30E-4B44-9581-6972947484E0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{335E160F-F30E-4B44-9581-6972947484E0}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{1DF00263-6CC4-449A-BA3B-A22183ED3DFA} = {57D6BFF8-AD25-4180-B387-83E6449C214A}
+	EndGlobalSection
+EndGlobal
